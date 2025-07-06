@@ -1,0 +1,15 @@
+.imageOne{
+    margin-top: 20px;
+    background-image: url(../images/homePageImg02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+img{
+    width: 400px;
+    height: 500px;
+}
+.card a {
+  text-decoration: none;
+}
