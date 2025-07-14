@@ -226,6 +226,7 @@ export default function Home() {
             </div>
             <div className="col-md-4 mb-4">
               <ScrollAnimation>
+                <Link href="/gems" className="attraction-card">
                 <div className="card attraction-card-inner">
                   <img src="/assets/images/homePageImg11.jpg" className="card-img-top" alt="Gems & Jewellery" />
                   <div className="card-body text-center">
@@ -233,15 +234,98 @@ export default function Home() {
                     <p className="card-text">Explore precious stones and traditional craftsmanship</p>
                   </div>
                 </div>
-              </ScrollAnimation>
+                </Link>
+                </ScrollAnimation>
             </div>
             <div className="col-md-4 mb-4">
               <ScrollAnimation>
-                <div className="card attraction-card-inner">
+                  <Link href="/rafting" className="attraction-card">
+                  <div className="card attraction-card-inner">
                   <img src="/assets/images/homePageImg12.jpg" className="card-img-top" alt="Rafting" />
                   <div className="card-body text-center">
                     <h5 className="card-title">Rafting</h5>
                     <p className="card-text">Adventure through tropical rivers and rapids</p>
+                  </div>
+                </div>
+                </Link>
+                
+              </ScrollAnimation>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-6 mb-4">
+              <ScrollAnimation>
+                <Link href="/wildlife" className="attraction-card">
+                  <div className="card attraction-card-inner">
+                    <img src="/assets/images/homePageImg13.jpg" className="card-img-top" alt="Spices" />
+                    <div className="card-body text-center">
+                      <h5 className="card-title">Wild-Life</h5>
+                      <p className="card-text">Explore Sri Lanka’s wild side</p>
+                    </div>
+                  </div>
+                </Link>
+              </ScrollAnimation>
+            </div>
+            <div className="col-md-6 mb-4">
+              <ScrollAnimation>
+              <Link href="/dancing" className="attraction-card">
+              <div className="card attraction-card-inner">
+                  <img src="/assets/images/homePageImg14.jpg" className="card-img-top" alt="Gems & Jewellery" />
+                  <div className="card-body text-center">
+                    <h5 className="card-title">Sri Lankan dancing</h5>
+                    <p className="card-text">Discover the vibrant pulse of Sri Lankan dance</p>
+                  </div>
+                </div>
+              </Link>
+            </ScrollAnimation>
+            </div>
+           
+          </div>
+          <div class="row">
+             <div className="col-md-3 mb-3">
+              <ScrollAnimation>
+                <Link href="/spices" className="attraction-card">
+                  <div className="card attraction-card-inner">
+                    <img src="/assets/images/homePageImg15.jpg" className="card-img-top" alt="Spices" />
+                    <div className="card-body text-center">
+                      <h5 className="card-title">Arts & crafts</h5>
+                      <p className="card-text">Explore Sri Lankan wood carvings—art in every grain</p>
+                    </div>
+                  </div>
+                </Link>
+              </ScrollAnimation>
+            </div>
+            <div className="col-md-3 mb-3">
+              <ScrollAnimation>
+                <div className="card attraction-card-inner">
+                  <img src="/assets/images/homePageImg16.jpg" className="card-img-top" alt="Gems & Jewellery" />
+                  <div className="card-body text-center">
+                    <h5 className="card-title">Ayurveda</h5>
+                    <p className="card-text">Discover Sri Lanka’s healing touch with Ayurveda</p>
+                  </div>
+                </div>
+              </ScrollAnimation>
+            </div>
+            <div className="col-md-3 mb-3">
+              <ScrollAnimation>
+                <Link href="/spices" className="attraction-card">
+                  <div className="card attraction-card-inner">
+                    <img src="/assets/images/homePageImg18.jpg" className="card-img-top" alt="Spices" />
+                    <div className="card-body text-center">
+                      <h5 className="card-title">Ceylon tea</h5>
+                      <p className="card-text">Sip the golden soul of Sri Lanka</p>
+                    </div>
+                  </div>
+                </Link>
+              </ScrollAnimation>
+            </div>
+            <div className="col-md-3 mb-3">
+              <ScrollAnimation>
+                <div className="card attraction-card-inner">
+                  <img src="/assets/images/homePageImg17.jpg" className="card-img-top" alt="Gems & Jewellery" />
+                  <div className="card-body text-center">
+                    <h5 className="card-title">Bathik</h5>
+                    <p className="card-text">Explore Sri Lanka’s artistry in vibrant fabric</p>
                   </div>
                 </div>
               </ScrollAnimation>

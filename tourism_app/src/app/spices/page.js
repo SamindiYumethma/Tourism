@@ -56,7 +56,7 @@ export default function Spices() {
         <div className="container">
           <ScrollAnimation>
             <div className="section-header text-center">
-              <h2 className="section-title">Explore Our Spices</h2>
+              <h2 className="section-title">Explore Sri Lankan Spices</h2>
               <p className="section-subtitle">
                 Discover the aromatic world of Sri Lankan spices
               </p>
@@ -65,9 +65,9 @@ export default function Spices() {
 
           <div className="row">
             {[
-              { image: "/assets/images/spicesImg01.jpg", title: "Cinnamon", description: "The world's finest Ceylon cinnamon" },
-              { image: "/assets/images/spicesImg02.jpg", title: "Black Pepper", description: "Bold and aromatic black pepper" },
-              { image: "/assets/images/spicesImg03.jpg", title: "Cardamom", description: "Fragrant green cardamom pods" }
+              { image: "/assets/images/spicesImg01.jpg", title: "", description: "" },
+              { image: "/assets/images/spicesImg02.jpg", title: "", description: "" },
+              { image: "/assets/images/spicesImg03.jpg", title: "", description: "" }
             ].map((spice, index) => (
               <div key={index} className="col-lg-4 col-md-6 mb-4">
                 <ScrollAnimation>
