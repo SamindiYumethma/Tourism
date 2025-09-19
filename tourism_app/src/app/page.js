@@ -284,7 +284,7 @@ export default function Home() {
           <div class="row">
              <div className="col-md-3 mb-3">
               <ScrollAnimation>
-                <Link href="/spices" className="attraction-card">
+                <Link href="/arts" className="attraction-card">
                   <div className="card attraction-card-inner">
                     <img src="/assets/images/homePageImg15.jpg" className="card-img-top" alt="Spices" />
                     <div className="card-body text-center">
@@ -297,18 +297,21 @@ export default function Home() {
             </div>
             <div className="col-md-3 mb-3">
               <ScrollAnimation>
-                <div className="card attraction-card-inner">
+                <Link href="/ayurvedha" className="attraction-card">
+                 <div className="card attraction-card-inner">
                   <img src="/assets/images/homePageImg16.jpg" className="card-img-top" alt="Gems & Jewellery" />
                   <div className="card-body text-center">
                     <h5 className="card-title">Ayurveda</h5>
                     <p className="card-text">Discover Sri Lanka’s healing touch with Ayurveda</p>
                   </div>
                 </div>
+                </Link>
+                
               </ScrollAnimation>
             </div>
             <div className="col-md-3 mb-3">
               <ScrollAnimation>
-                <Link href="/spices" className="attraction-card">
+                <Link href="/tea" className="attraction-card">
                   <div className="card attraction-card-inner">
                     <img src="/assets/images/homePageImg18.jpg" className="card-img-top" alt="Spices" />
                     <div className="card-body text-center">
@@ -321,13 +324,15 @@ export default function Home() {
             </div>
             <div className="col-md-3 mb-3">
               <ScrollAnimation>
+                <Link href="/bathik" className="attraction-card">
                 <div className="card attraction-card-inner">
-                  <img src="/assets/images/homePageImg17.jpg" className="card-img-top" alt="Gems & Jewellery" />
-                  <div className="card-body text-center">
-                    <h5 className="card-title">Bathik</h5>
-                    <p className="card-text">Explore Sri Lanka’s artistry in vibrant fabric</p>
+                    <img src="/assets/images/homePageImg17.jpg" className="card-img-top" alt="Spices" />
+                    <div className="card-body text-center">
+                      <h5 className="card-title">Batik</h5>
+                      <p className="card-text">Wear the painted spirit of the island</p>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </ScrollAnimation>
             </div>
           </div>
