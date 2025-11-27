@@ -66,14 +66,15 @@ export default function HeroSection() {
               </p>
               
               <div className="hero-buttons animate-fade-in-delay-2">
-                <button className="btn btn-primary btn-lg hero-btn">
-                  <span>Explore Tours</span>
-                  <i className="fas fa-arrow-right"></i>
-                </button>
-                <button className="btn btn-outline-light btn-lg hero-btn">
+                <a href="/tours" className="btn btn-primary btn-lg hero-btn">
+                   <span>Explore Tours</span>
+                   <i className="fas fa-arrow-right"></i>
+                </a>
+                <a href="/about" className="btn btn-outline-light btn-lg hero-btn">
                   <span>Learn More</span>
                   <i className="fas fa-info-circle"></i>
-                </button>
+                </a>
+                
               </div>
             </div>
           </div>

@@ -1,6 +1,7 @@
 'use client';
 
 import ScrollAnimation from "../components/ScrollAnimation";
+import Gallery from "../components/Gallery"; 
 
 export default function About() {
   return (
@@ -27,27 +28,19 @@ export default function About() {
               <div className="col-lg-8 mx-auto">
                 <div className="about-description animate-fade-in">
                   <p className="lead">
-                    At Blissful Lanka, we believe that travel should be more than 
-                    just visiting places—it should be about creating meaningful 
-                    connections and unforgettable experiences. Our passion for Sri 
-                    Lanka drives us to share the island's authentic beauty with 
-                    travelers from around the world.
+                    At Blissful Lanka, we believe every journey through Sri Lanka is more than just travel—it’s a story waiting to be lived. With over 20 years of experience in guiding travelers from across the globe, we have proudly welcomed guests from <b>Russia, Germany, Eastern Europe, the United Kingdom, and India,</b> sharing with them the vibrant soul of our island.
                   </p>
                   
                   <p>
-                    Founded by local experts with deep knowledge of Sri Lanka's 
-                    culture, history, and hidden gems, we specialize in crafting 
-                    personalized journeys that go beyond the typical tourist 
-                    experience. From ancient temples to pristine beaches, from 
-                    misty mountains to wildlife encounters, we ensure every moment 
-                    of your journey is filled with wonder and discovery.
+                    Our tours are crafted with passion, blending cultural heritage, natural beauty, and authentic local experiences. Whether it’s the regal Kandyan dances, misty highland escapes, golden beaches, or ancient temples, we ensure every step reveals the timeless charm of Sri Lanka.
                   </p>
                   
                   <p>
-                    Our commitment to sustainable tourism and authentic experiences 
-                    means you'll not only see the beauty of Sri Lanka but also 
-                    contribute to preserving its natural and cultural heritage for 
-                    future generations.
+                   What makes us unique is the personal touch—the photographs you see here are moments I’ve captured myself during tours, reflecting the joy, wonder, and connection that travelers experience with us. Each image is a window into the unforgettable journeys we create.
+                  </p>
+
+                  <p>
+                    At Blissful Lanka, we don’t just show you places—we help you feel Sri Lanka. From the rhythm of traditional drums to the warmth of local smiles, every detail is carefully woven to make your visit truly blissful.
                   </p>
                 </div>
               </div>
@@ -55,6 +48,7 @@ export default function About() {
           </ScrollAnimation>
         </div>
       </section>
+      <Gallery/>
     </div>
   );
 } 

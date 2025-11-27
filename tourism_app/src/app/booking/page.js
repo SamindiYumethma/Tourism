@@ -45,27 +45,22 @@ export default function Booking() {
           </ScrollAnimation>
 
           <div className="row mt-5">
-            <div className="col-md-6 mb-4">
-              <ScrollAnimation>
-                <div className="booking-card">
-                  <div className="booking-card-content">
-                    <h3>Contact Our Experts</h3>
-                    <p>Get personalized assistance with your booking</p>
-                    <button className="btn btn-primary">Get in Touch</button>
-                  </div>
-                </div>
-              </ScrollAnimation>
+            <div className="col-md-3 mb-4">
+              
             </div>
             <div className="col-md-6 mb-4">
               <ScrollAnimation>
                 <div className="booking-card">
                   <div className="booking-card-content">
-                    <h3>Custom Packages</h3>
-                    <p>Create your own unique Sri Lanka experience</p>
-                    <button className="btn btn-outline-primary">Learn More</button>
+                    <h3>To book your tour</h3>
+                    <p><b>just send us an email at</b></p>
+                    <p>blissfulLanka@gmail.com</p>
                   </div>
                 </div>
               </ScrollAnimation>
+            </div>
+            <div className="col-md-3 mb-4">
+              
             </div>
           </div>
         </div>
